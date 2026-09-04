@@ -1,0 +1,8 @@
+<ul>
+{% for p in products %}
+  <li>{{ p.name }} - ${{ p.price }}</li>
+  {% if p.discount %}
+    <span>On sale!</span>
+  {% endif %}
+{% endfor %}
+</ul>

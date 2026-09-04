@@ -1,0 +1,13 @@
+products = [
+    {"name": "Chair", "price": 50, "qty": 10}
+]
+
+def add_product(name, price, qty):
+    products.append({"name": name, "price": price, "qty": qty})
+enddef
+
+for p in products:
+    if p["price"] > 100:
+        p["discount"] = True
+    endif
+endfor
