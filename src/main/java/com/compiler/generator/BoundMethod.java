@@ -1,2 +1,4 @@
-package com.compiler.generator;public class BoundMethod {
+package com.compiler.generator;
+
+public class BoundMethod {
 }
