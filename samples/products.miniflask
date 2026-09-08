@@ -1,5 +1,7 @@
 products = [
-    {"name": "Chair", "price": 50, "qty": 10}
+    {"id": 4, "name": "bus", "price": 22, "qty": 20, "discount": False},
+    {"id": 6, "name": "car", "price": 1000, "qty": 2, "discount": False},
+    {"id": 7, "name": "chair", "price": 100, "qty": 100, "discount": False}
 ]
 
 def add_product(name, price, qty):
@@ -7,7 +9,7 @@ def add_product(name, price, qty):
 enddef
 
 for p in products:
-    if p["price"] > 100:
+    if p["qty"] < 10:
         p["discount"] = True
     endif
 endfor

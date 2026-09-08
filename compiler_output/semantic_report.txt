@@ -1,0 +1,15 @@
+SEMANTIC ANALYSIS REPORT
+=========================
+
+SYMBOL TABLE
+NAME                 SCOPE        TYPE       LINE
+-------------------------------------------------------
+products             global       list       1
+add_product          global       function   7
+name                 add_product  unknown    7
+price                add_product  unknown    7
+qty                  add_product  unknown    7
+p                    global       unknown    11
+
+SEMANTIC ERRORS (0 found)
+----------------------------------------

@@ -1,0 +1,173 @@
+{
+  "type": "Template",
+  "label": "Template",
+  "line": 1,
+  "children": [
+    {
+      "type": "Text",
+      "label": "Text: \"<html>\n<head>\n    <title>Products</tit...\"",
+      "line": 1,
+      "children": []
+    },
+    {
+      "type": "ForBlock",
+      "label": "ForBlock: p in products",
+      "line": 10,
+      "children": [
+        {
+          "type": "Group",
+          "label": "body:",
+          "line": 10,
+          "children": [
+            {
+              "type": "Text",
+              "label": "Text: \"\n  <li>\n    \"",
+              "line": 10,
+              "children": []
+            },
+            {
+              "type": "ExpressionOutput",
+              "label": "ExpressionOutput",
+              "line": 12,
+              "children": [
+                {
+                  "type": "AttributeChain",
+                  "label": "AttributeChain: p.name",
+                  "line": 12,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "Text",
+              "label": "Text: \" - $\"",
+              "line": 12,
+              "children": []
+            },
+            {
+              "type": "ExpressionOutput",
+              "label": "ExpressionOutput",
+              "line": 12,
+              "children": [
+                {
+                  "type": "AttributeChain",
+                  "label": "AttributeChain: p.price",
+                  "line": 12,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "Text",
+              "label": "Text: \"\n    <a href=\"product_detail_\"",
+              "line": 12,
+              "children": []
+            },
+            {
+              "type": "ExpressionOutput",
+              "label": "ExpressionOutput",
+              "line": 13,
+              "children": [
+                {
+                  "type": "AttributeChain",
+                  "label": "AttributeChain: p.id",
+                  "line": 13,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "Text",
+              "label": "Text: \".html\">View</a>\n    <a href=\"edit_produ...\"",
+              "line": 13,
+              "children": []
+            },
+            {
+              "type": "ExpressionOutput",
+              "label": "ExpressionOutput",
+              "line": 14,
+              "children": [
+                {
+                  "type": "AttributeChain",
+                  "label": "AttributeChain: p.id",
+                  "line": 14,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "Text",
+              "label": "Text: \".html\">Edit</a>\n    <form method=\"POST\"...\"",
+              "line": 14,
+              "children": []
+            },
+            {
+              "type": "ExpressionOutput",
+              "label": "ExpressionOutput",
+              "line": 15,
+              "children": [
+                {
+                  "type": "AttributeChain",
+                  "label": "AttributeChain: p.id",
+                  "line": 15,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "Text",
+              "label": "Text: \"\" style=\"display:inline\">\n      <button...\"",
+              "line": 15,
+              "children": []
+            },
+            {
+              "type": "IfBlock",
+              "label": "IfBlock",
+              "line": 18,
+              "children": [
+                {
+                  "type": "Group",
+                  "label": "condition:",
+                  "line": 18,
+                  "children": [
+                    {
+                      "type": "AttributeChain",
+                      "label": "AttributeChain: p.discount",
+                      "line": 18,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "Group",
+                  "label": "body:",
+                  "line": 18,
+                  "children": [
+                    {
+                      "type": "Text",
+                      "label": "Text: \"\n      <span>On sale!</span>\n    \"",
+                      "line": 18,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Text",
+              "label": "Text: \"\n  </li>\n\"",
+              "line": 20,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Text",
+      "label": "Text: \"\n</ul>\n</body>\n</html>\"",
+      "line": 22,
+      "children": []
+    }
+  ]
+}

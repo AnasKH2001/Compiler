@@ -1,0 +1,9 @@
+Regeneration started at 2026-09-08T09:42:10.972142100
+Parsed products.miniflask -> Python AST (3 top-level statements)
+Parsed index.minijinja -> Jinja AST
+Wrote compiler_output/ast_python.json and ast_jinja.json
+Wrote compiler_output/semantic_report.txt (0 errors found)
+Evaluated Python data: [p, add_product, products]
+Generated HTML site into output/
+Copied companion files (app.py, style.css, script.js) into output/ unchanged
+Regeneration successful at 2026-09-08T09:42:11.236921400

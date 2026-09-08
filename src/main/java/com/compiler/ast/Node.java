@@ -50,4 +50,17 @@ public abstract class Node {
             kids.get(i).printTree(childPrefix, i == kids.size() - 1);
         }
     }
+
+    public final com.google.gson.JsonObject toJson() {
+        com.google.gson.JsonObject obj = new com.google.gson.JsonObject();
+        obj.addProperty("type", nodeType());
+        obj.addProperty("label", label());
+        obj.addProperty("line", line);
+        com.google.gson.JsonArray childArr = new com.google.gson.JsonArray();
+        for (Node child : children()) {
+            childArr.add(child.toJson());
+        }
+        obj.add("children", childArr);
+        return obj;
+    }
 }

@@ -1,0 +1,19 @@
+products = [
+    {"name": "Chair", "price": 50, "qty": 10}
+]
+
+count = 5
+flag = True
+
+def add_product(name, price, qty):
+    products.append({"name": name, "price": price, "qty": qty})
+    total = qty
+enddef
+
+if flag > 5:
+    y = 1
+endif
+
+z = total
+count.append(1)
+w = mystery_var

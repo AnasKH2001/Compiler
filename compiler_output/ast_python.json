@@ -1,0 +1,465 @@
+{
+  "type": "Program",
+  "label": "Program",
+  "line": 1,
+  "children": [
+    {
+      "type": "Assignment",
+      "label": "Assignment: products =",
+      "line": 1,
+      "children": [
+        {
+          "type": "Group",
+          "label": "value:",
+          "line": 1,
+          "children": [
+            {
+              "type": "ListLiteral",
+              "label": "ListLiteral [3 items]",
+              "line": 1,
+              "children": [
+                {
+                  "type": "DictLiteral",
+                  "label": "DictLiteral {5 entries}",
+                  "line": 2,
+                  "children": [
+                    {
+                      "type": "DictEntry",
+                      "label": "\"id\":",
+                      "line": 2,
+                      "children": [
+                        {
+                          "type": "IntLiteral",
+                          "label": "IntLiteral: 4",
+                          "line": 2,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "DictEntry",
+                      "label": "\"name\":",
+                      "line": 2,
+                      "children": [
+                        {
+                          "type": "StringLiteral",
+                          "label": "StringLiteral: \"bus\"",
+                          "line": 2,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "DictEntry",
+                      "label": "\"price\":",
+                      "line": 2,
+                      "children": [
+                        {
+                          "type": "IntLiteral",
+                          "label": "IntLiteral: 22",
+                          "line": 2,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "DictEntry",
+                      "label": "\"qty\":",
+                      "line": 2,
+                      "children": [
+                        {
+                          "type": "IntLiteral",
+                          "label": "IntLiteral: 20",
+                          "line": 2,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "DictEntry",
+                      "label": "\"discount\":",
+                      "line": 2,
+                      "children": [
+                        {
+                          "type": "BoolLiteral",
+                          "label": "BoolLiteral: false",
+                          "line": 2,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "DictLiteral",
+                  "label": "DictLiteral {5 entries}",
+                  "line": 3,
+                  "children": [
+                    {
+                      "type": "DictEntry",
+                      "label": "\"id\":",
+                      "line": 3,
+                      "children": [
+                        {
+                          "type": "IntLiteral",
+                          "label": "IntLiteral: 6",
+                          "line": 3,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "DictEntry",
+                      "label": "\"name\":",
+                      "line": 3,
+                      "children": [
+                        {
+                          "type": "StringLiteral",
+                          "label": "StringLiteral: \"car\"",
+                          "line": 3,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "DictEntry",
+                      "label": "\"price\":",
+                      "line": 3,
+                      "children": [
+                        {
+                          "type": "IntLiteral",
+                          "label": "IntLiteral: 1000",
+                          "line": 3,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "DictEntry",
+                      "label": "\"qty\":",
+                      "line": 3,
+                      "children": [
+                        {
+                          "type": "IntLiteral",
+                          "label": "IntLiteral: 2",
+                          "line": 3,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "DictEntry",
+                      "label": "\"discount\":",
+                      "line": 3,
+                      "children": [
+                        {
+                          "type": "BoolLiteral",
+                          "label": "BoolLiteral: false",
+                          "line": 3,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "DictLiteral",
+                  "label": "DictLiteral {5 entries}",
+                  "line": 4,
+                  "children": [
+                    {
+                      "type": "DictEntry",
+                      "label": "\"id\":",
+                      "line": 4,
+                      "children": [
+                        {
+                          "type": "IntLiteral",
+                          "label": "IntLiteral: 7",
+                          "line": 4,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "DictEntry",
+                      "label": "\"name\":",
+                      "line": 4,
+                      "children": [
+                        {
+                          "type": "StringLiteral",
+                          "label": "StringLiteral: \"chair\"",
+                          "line": 4,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "DictEntry",
+                      "label": "\"price\":",
+                      "line": 4,
+                      "children": [
+                        {
+                          "type": "IntLiteral",
+                          "label": "IntLiteral: 100",
+                          "line": 4,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "DictEntry",
+                      "label": "\"qty\":",
+                      "line": 4,
+                      "children": [
+                        {
+                          "type": "IntLiteral",
+                          "label": "IntLiteral: 100",
+                          "line": 4,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "DictEntry",
+                      "label": "\"discount\":",
+                      "line": 4,
+                      "children": [
+                        {
+                          "type": "BoolLiteral",
+                          "label": "BoolLiteral: false",
+                          "line": 4,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "FunctionDef",
+      "label": "FunctionDef: add_product(name, price, qty)",
+      "line": 7,
+      "children": [
+        {
+          "type": "ExpressionStatement",
+          "label": "ExpressionStatement",
+          "line": 8,
+          "children": [
+            {
+              "type": "Call",
+              "label": "Call (1 args)",
+              "line": 8,
+              "children": [
+                {
+                  "type": "Group",
+                  "label": "callee:",
+                  "line": 8,
+                  "children": [
+                    {
+                      "type": "AttributeAccess",
+                      "label": "AttributeAccess: .append",
+                      "line": 8,
+                      "children": [
+                        {
+                          "type": "Identifier",
+                          "label": "Identifier: products",
+                          "line": 8,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Group",
+                  "label": "arg:",
+                  "line": 8,
+                  "children": [
+                    {
+                      "type": "DictLiteral",
+                      "label": "DictLiteral {3 entries}",
+                      "line": 8,
+                      "children": [
+                        {
+                          "type": "DictEntry",
+                          "label": "\"name\":",
+                          "line": 8,
+                          "children": [
+                            {
+                              "type": "Identifier",
+                              "label": "Identifier: name",
+                              "line": 8,
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "DictEntry",
+                          "label": "\"price\":",
+                          "line": 8,
+                          "children": [
+                            {
+                              "type": "Identifier",
+                              "label": "Identifier: price",
+                              "line": 8,
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "DictEntry",
+                          "label": "\"qty\":",
+                          "line": 8,
+                          "children": [
+                            {
+                              "type": "Identifier",
+                              "label": "Identifier: qty",
+                              "line": 8,
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "For",
+      "label": "For: p in ...",
+      "line": 11,
+      "children": [
+        {
+          "type": "Group",
+          "label": "iterable:",
+          "line": 11,
+          "children": [
+            {
+              "type": "Identifier",
+              "label": "Identifier: products",
+              "line": 11,
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "Group",
+          "label": "body:",
+          "line": 11,
+          "children": [
+            {
+              "type": "If",
+              "label": "If",
+              "line": 12,
+              "children": [
+                {
+                  "type": "Group",
+                  "label": "condition:",
+                  "line": 12,
+                  "children": [
+                    {
+                      "type": "Comparison",
+                      "label": "Comparison: <",
+                      "line": 12,
+                      "children": [
+                        {
+                          "type": "IndexAccess",
+                          "label": "IndexAccess",
+                          "line": 12,
+                          "children": [
+                            {
+                              "type": "Group",
+                              "label": "target:",
+                              "line": 12,
+                              "children": [
+                                {
+                                  "type": "Identifier",
+                                  "label": "Identifier: p",
+                                  "line": 12,
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "type": "Group",
+                              "label": "index:",
+                              "line": 12,
+                              "children": [
+                                {
+                                  "type": "StringLiteral",
+                                  "label": "StringLiteral: \"qty\"",
+                                  "line": 12,
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "IntLiteral",
+                          "label": "IntLiteral: 10",
+                          "line": 12,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Group",
+                  "label": "body:",
+                  "line": 12,
+                  "children": [
+                    {
+                      "type": "Assignment",
+                      "label": "Assignment: p[...] =",
+                      "line": 13,
+                      "children": [
+                        {
+                          "type": "Group",
+                          "label": "index:",
+                          "line": 13,
+                          "children": [
+                            {
+                              "type": "StringLiteral",
+                              "label": "StringLiteral: \"discount\"",
+                              "line": 13,
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Group",
+                          "label": "value:",
+                          "line": 13,
+                          "children": [
+                            {
+                              "type": "BoolLiteral",
+                              "label": "BoolLiteral: true",
+                              "line": 13,
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

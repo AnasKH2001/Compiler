@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>Products</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<h1>Product List</h1>
+<a href="add_product.html">Add New Product</a>
+<ul>
+{% for p in products %}
+  <li>
+    {{ p.name }} - ${{ p.price }}
+    <a href="product_detail_{{ p.id }}.html">View</a>
+    <a href="edit_product_{{ p.id }}.html">Edit</a>
+    <form method="POST" action="/delete/{{ p.id }}" style="display:inline">
+      <button type="submit">Delete</button>
+    </form>
+    {% if p.discount %}
+      <span>On sale!</span>
+    {% endif %}
+  </li>
+{% endfor %}
+</ul>
+</body>
+</html>
